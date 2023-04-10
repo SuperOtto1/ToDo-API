@@ -1,0 +1,9 @@
+h2 {
+  color: blue;
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  min-width: 700px;
+}

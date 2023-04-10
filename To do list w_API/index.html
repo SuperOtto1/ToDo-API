@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class = "container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4">
+            <h2>To Do List</h2>
+            <div id='todo-list'>
+              <!-- where the tasks will be placed.-->
+              <ul class="list-group my-2"></ul>
+            </div>
+            <form id="create-task">
+              <input id="new-task-content" type="text" placeholder="new task" required/>
+              <button>Create</button>
+            </form>
+            <br>
+          </div>
+        </div>
+        <div class="row col-xs-12 col-sm-8 mx-auto wrapper-two">
+          <div class="col">
+            <div class="btn-group"> <!-- three separate buttons all/activ/complete-->
+              <button class="btn btn-light border mx-1 toggle-all">
+                All
+              </button>
+              <button class="btn btn-light border mx-1 my-3 toggle-active">
+                Active
+              </button>
+              <button class="btn btn-light border mx-1 my-3 toggle-completed">
+                Completed
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
